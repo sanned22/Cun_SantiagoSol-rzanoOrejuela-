@@ -3,7 +3,6 @@
 
 biografía 
 
-## Ejemplos de Código
+## Santiago Solórzano un gran Nilo trabajador luchador y que tales 
 
-# Aquí va tu código de ejemplo
-print("Hola, mundo!")
+un gran hombre para el poco de mundo 
