@@ -6,6 +6,5 @@ Descripción del proyecto.
 
 ## Ejemplos de Código
 
-```python
 # Aquí va tu código de ejemplo
 print("Hola, mundo!")
