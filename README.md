@@ -1,6 +1,5 @@
-# Cun_SantiagoSol-rzanoOrejuela-
 
-# Nombre del Proyecto
+# Santiago Solórzano Orejuela 
 
 Descripción del proyecto.
 
