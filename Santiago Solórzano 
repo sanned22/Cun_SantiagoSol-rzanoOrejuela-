@@ -1,1 +1,29 @@
-#santisgo
+import matplotlib.pyplot as plt
+from matplotlib.patches import Circle
+
+# Crear la figura y el eje
+fig, ax = plt.subplots()
+
+# Crear círculos para cada conjunto:
+# Círculo de ℝ (Reales): más grande
+circle_R = Circle((0, 0), 1.0, color='lightblue', alpha=0.5, label='ℝ (Reales)')
+# Círculo de ℚ (Racionales): de tamaño intermedio
+circle_Q = Circle((0, 0), 0.7, color='lightgreen', alpha=0.5, label='ℚ (Racionales)')
+# Círculo de ℤ (Enteros): el más pequeño
+circle_Z = Circle((0, 0), 0.4, color='lightcoral', alpha=0.5, label='ℤ (Enteros)')
+
+# Añadir los círculos al eje
+ax.add_patch(circle_R)
+ax.add_patch(circle_Q)
+ax.add_patch(circle_Z)
+
+# Ajustar la relación de aspecto y los límites del gráfico
+ax.set_aspect('equal')
+ax.set_xlim(-1.2, 1.2)
+ax.set_ylim(-1.2, 1.2)
+
+# Título y leyenda
+plt.title("Diagrama de Venn Anidado: ℤ ⊂ ℚ ⊂ ℝ")
+plt.legend(handles=[circle_R, circle_Q, circle_Z])
+
+plt.show()
